@@ -93,10 +93,33 @@ nav {
   text-align: center;
   justify-content: space-between;
   margin-left: 6rem;
-  width: 5rem;
+  width: 10rem;
 }
 
 .icon_info img {
   max-width: 3.5rem;
   margin-bottom: 1rem;
+}
+
+/* Info Section  */
+
+.info_main_container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.text_b_container {
+  width: 25%;
+  margin-right: 5%;
+}
+
+.headding {
+  background: cadetblue;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  width: 10rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
 }
