@@ -92,7 +92,7 @@ nav {
   text-align: center;
   justify-content: space-between;
   margin-left: 6rem;
-  width: 10rem;
+  width: 5rem;
 }
 
 .icon_info img {
@@ -106,6 +106,7 @@ nav {
   display: flex;
   justify-content: center;
   margin-bottom: 5rem;
+  width: 100%;
 }
 
 .text_b_container {
@@ -139,4 +140,49 @@ footer {
 .bottom_logo img{
   height: 1.5rem;
   margin-right: 1rem;
+}
+
+/* Mobile Section  */
+
+/* Tablet 1024px  */
+
+@media only screen and (max-width: 1024px) {
+
+  body {
+    width: 100%;
+  }
+  .nav_block {
+    width: 96.9%;
+    margin: auto;
+    position:
+  }
+
+  nav {
+    margin: 0px;
+  }
+
+  .banner_container {
+    height: 22rem
+  }
+
+  .banner_text_main_container {
+    width: 960px;
+  }
+
+  .text h1 {
+    font-size: 1.33rem;
+  }
+
+  .text_container {
+    padding: 0.75rem 4rem;
+  }
+
+}
+
+/* Mobile 480px  */
+
+@media only screen and (max-width: 480px) {
+
+  
+
 }
