@@ -19,6 +19,7 @@ nav {
   margin-top: 1rem;
   align-items: center;
   padding: 1rem;
+  position: absolute;
 }
 
 .nav_block .whitelogo {
@@ -42,4 +43,36 @@ nav {
 
 .nav_list .mobile_menu {
   display: none;
+}
+
+/* Banner Section  */
+
+.banner_container {
+  background-image: url("../../resources/images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  display: flex;
+}
+
+.banner_text_main_container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 996px;
+  margin: auto;
+}
+
+.text_container {
+  background-color: white;
+  display: flex;
+  padding: 1.5rem 5rem;
+}
+
+.text_container h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2rem;
+
 }
