@@ -19,6 +19,8 @@ nav {
   align-items: center;
   padding: 1rem;
   position: absolute;
+  width: 960px;
+  /* margin: auto; */
 }
 
 .nav_block .whitelogo {
@@ -36,13 +38,23 @@ nav {
   margin-left: 22.6rem;
 }
 
-.nav_list span {
-  margin-right: 2rem;
+.nav_list {
+  display: flex;
 }
 
-.nav_list .mobile_menu {
+.nav_list span {
+  margin-right: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mobile {
   display: none;
 }
+
+/* .nav_list span {
+  margin-right: 0;
+} */
 
 /* Banner Section  */
 
@@ -91,7 +103,7 @@ nav {
   align-items: center;
   text-align: center;
   justify-content: space-between;
-  margin-left: 6rem;
+  margin-right: 6rem;
   width: 5rem;
 }
 
@@ -110,8 +122,8 @@ nav {
 }
 
 .text_b_container {
-  width: 25%;
-  margin-right: 5%;
+  width: 27%;
+  margin-left: 5%;
 }
 
 .headding {
@@ -169,12 +181,20 @@ footer {
     width: 960px;
   }
 
+  .icon_info {
+    /* margin: 0; */
+  }
+
   .text h1 {
     font-size: 1.33rem;
   }
 
-  .text_container {
+  /* .text_container {
     padding: 0.75rem 4rem;
+  } */
+
+  .text_b_container {
+    margin-right: 5%;
   }
 
 }
@@ -183,6 +203,101 @@ footer {
 
 @media only screen and (max-width: 480px) {
 
-  
+  body {
+    width: 100%;
+    margin: auto;
+    font-size: 18px;
+  }
+
+  .brand_name span {
+    display: none;
+  }
+
+  .nav_block {
+    width: 93.3%;
+  }
+
+  .list span{
+    display: none;
+  }
+
+  .nav_list .list {
+    margin-left: 0;
+  }
+
+  .mobile {
+    display: block;
+    margin-left: 17rem;
+  }
+
+  .banner_container {
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  .text_container {
+    /* width: 73.3%; */
+    width: 100%;
+    margin-top: 9rem;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .text h1 {
+    font-size: 1rem;
+    /* margin-left: 8rem; */
+  }
+
+  .banner_text_main_container {
+    justify-content: center;
+
+  }
+
+  .main_icon_container {
+    flex-direction: column;
+    align-items: center;
+    margin: 3.77rem 0;
+  }
+
+  .icon_info {
+    margin: 0px;
+  }
+
+  .icon_info span {
+    font-size: 0.77rem;
+    margin-bottom: 1.54rem;
+  }
+
+  .info_main_container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text_b_container {
+    width: 100%;
+    margin: auto;
+
+  }
+
+  .headding {
+    width: 92%;
+    text-align: center;
+  }
+
+  .info_text {
+    font-size: 0.77rem;
+    padding: 1rem;
+    display: block;
+  }
+
+  .bottom_logo span {
+    display: none;
+  }
+
+  .bottom_logo {
+    justify-content: center;
+  }
+
+
 
 }
