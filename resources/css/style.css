@@ -232,6 +232,10 @@ footer {
     margin-left: 17rem;
   }
 
+  .mobile span {
+    margin-right: 0px;
+  }
+
   .banner_container {
     height: 17rem;
     background-position: 20%;
@@ -298,6 +302,15 @@ footer {
 
   .bottom_logo {
     justify-content: center;
+  }
+
+  .bottom_logo img {
+    margin-right: 0;
+  }
+
+  footer {
+    width: 86.5%;
+    margin: auto;
   }
 
 
